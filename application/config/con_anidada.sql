@@ -1,0 +1,1 @@
+select nombre, edad from Jugadores where NomEquipo in(select Nombre from Equipos where titulos=2);
